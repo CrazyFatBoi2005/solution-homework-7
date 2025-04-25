@@ -1,2 +1,6 @@
-package MediatorPattern;public class TowerMediator {
+package MediatorPattern;
+
+public interface TowerMediator {
+    void broadcast(String msg, Aircraft sender);
+    boolean requestRunway(Aircraft aircraft);
 }
